@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+# Remove extensionless files
+*
+!*.*
+!*/
