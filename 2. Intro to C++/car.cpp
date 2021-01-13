@@ -4,7 +4,7 @@
 // Method definitions for the Car class.
 void Car::PrintCarData() 
 {
-    cout << "The distance that the " << color << " car " << number << " has traveled is: " << distance << " it's price is: " << price << "\n";
+    cout << "The distance that the " << this->color << " car " << this->number << " has traveled is: " << this->distance << " it's price is: " << this->price << "\n";
 }
 
 void Car::IncrementDistance() 
