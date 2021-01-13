@@ -9,7 +9,7 @@ void Car::PrintCarData()
 
 void Car::IncrementDistance() 
 {
-    distance++;
+    this->distance++;
 }
 
 void Car::IncrementPrice(int amount){
